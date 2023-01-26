@@ -11,7 +11,7 @@ const observer: Observer<string> = {
 // Es recomendable establecer el tipo de informacion que fluye en el observable
 const obs$ = new Observable<string>((subscriber) => {
     // Esta definicion del observable va a permitirnos crear subscripciones
-    // Subscripciones: Gente que esta pendiente de las emisiones de mi observable
+    // Subscripciones: Gente que esta pendiente de las emisiones de mi observable 
 
     subscriber.next('Hola'); // Esto va a emitir un valor a las peorsonas que subscritas al observable
     subscriber.next('mundo');
